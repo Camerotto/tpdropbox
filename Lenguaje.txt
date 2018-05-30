@@ -28,5 +28,5 @@ Dropbox uses SSL transfers for synchronization and stores the data via Advanced 
 The functionality of Dropbox can be integrated into third-party applications through an application programming interface (API).[86]
 
 Dropbox prevents sharing of copyrighted data, by checking the hash of files shared in public folders or between users against a blacklist 
-of copyrighted material. This only applies to algo cambie.... jejeje files or folders shared with other users or publicly, and not to files kept in an 
+of copyrighted material. This only applies to files or folders shared with other users or publicly, and not to files kept in an 
 individual's Dropbox folder that are not shared.[87]
