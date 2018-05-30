@@ -1,0 +1,32 @@
+The Dropbox software enables users to drop any file into a designated folder. The file is then automatically uploaded to Dropbox's 
+cloud-based service and made available to any other of the user's computers and devices that also have the Dropbox software installed,
+keeping the file up-to-date on all systems.[74] When a file in a user's Dropbox folder is changed, Dropbox only uploads the pieces of
+the file that have been changed, whenever possible.[75]
+
+When a file or folder is deleted, users can recover it within 30 days. For Dropbox Plus users, this recovery time can be extended 
+to one year, by purchasing an "Extended Version History" add-on.[59]
+
+Dropbox accounts that are not accessed or emails not replied in a year are automatically deleted.[76]
+
+Dropbox also offers a LAN sync feature, where, instead of receiving information and data from the Dropbox servers, computers on the
+local network can exchange files directly between each other, potentially significantly improving synchronization speeds.[77]
+
+Originally, the Dropbox servers and computer apps were written in Python.[78] In July 2014, Dropbox began migrating its backend 
+infrastructure to Go.[79]
+
+In September 2012, Dropbox's website codebase was rewritten from JavaScript to CoffeeScript.[80]
+
+Dropbox originally used Amazon's S3 storage system to store user files, but between 2014 and 2016 they gradually moved away from Amazon
+to use their own hardware, referred to as "Magic Pocket", due to Dropbox's description as "a place where you keep all your stuff, it
+doesn’t get lost, and you can always access it".[81] In June 2017, the company announced a major global network expansion, aiming to
+increase synchronization speeds while cutting costs. The expansion, starting with 14 cities across 7 countries on 3 continents, adds 
+"hundreds of gigabits of Internet connectivity with transit providers (regional and global ISPs), and hundreds of new peering partners 
+(where we exchange traffic directly rather than through an ISP)".[82][83][84]
+
+Dropbox uses SSL transfers for synchronization and stores the data via Advanced Encryption Standard (AES)-256 encryption.[85]
+
+The functionality of Dropbox can be integrated into third-party applications through an application programming interface (API).[86]
+
+Dropbox prevents sharing of copyrighted data, by checking the hash of files shared in public folders or between users against a blacklist 
+of copyrighted material. This only applies to files or folders shared with other users or publicly, and not to files kept in an 
+individual's Dropbox folder that are not shared.[87]
