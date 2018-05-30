@@ -1,1 +1,9 @@
-Ventajas frente a la competencia
+Ventajas:
+*Se sincroniza a través de una carpeta fija donde se puede colocar todos los datos 
+*Se puede navegar entro los archivos en una interfaz minimalista. 
+*Se puede almacenar hasta 18 GB 
+
+Desventajas: 
+* Solo se puede sincronizar lo que se encuentre dentro de la carpeta que se crea de forma automática. Llamada "MY DROPBOX" 
+* Cuando se comparten archivos no se debe trabajar en el mismo al mismo tiempo ya que crea conflicto y se duplica el archivo. 
+* No tiene cliente para dispositivos salvo Iphone.
