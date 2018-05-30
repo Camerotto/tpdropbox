@@ -39,5 +39,5 @@ Supervisa la actividad de la cuenta
 En la página "Seguridad", puedes controlar fácilmente los dispositivos vinculados, las sesiones activas en Internet y las aplicaciones de terceros que tienen acceso a tu cuenta. ¿Te parece que algo no está bien? Puedes denegar el acceso en segundos. En la página "Eventos", puedes controlar los cambios en archivos y carpetas, incluidas las ediciones, las eliminaciones y la membresía de las carpetas compartidas. 
 
 Ten cuidado con la suplantación de identidad y el malware
-Los atacantes, para intentar robarte información confidencial, podrían fingir ser Dropbox u otros servicios de confianza. Ten cuidado con correos electrónicos, sitios web y vínculos desconocidos que intenten engañarte para que ingreses tu contraseña u otra información confidencial. Además, si adviertes que hay archivos sospechosos alojados en Dropbox, comunícate con nosotros. Más información
+Los atacantes, para intentar robarte información confidencial, podrían fingir ser Dropbox u otros servicios de confianza. Ten cuidado con correos electrónicos, sitios web y vínculos desconocidos que intenten engañarte para que ingreses tu contraseña u otra información confidencial. Además, si adviertes que hay archivos sospechosos alojados en Dropbox, comunícate con nosotros
 
