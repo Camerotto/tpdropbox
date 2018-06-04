@@ -1,5 +1,104 @@
 
-Cuando hablamos de Dropbox inevitablemente tenemos que relacionarlo con un nombre, Drew Houston y  un lugar, 
-una estación de tren en Boston donde comenzó a escribir en los vagones el código de esta herramienta. 
-Rodea el nacimiento de esta startup un genial olvido: un USB. Así comienza la historia de esta empresa que nació,
- como la mayoría, para dar respuesta a una necesidad.
+Podemos decir que desde 2007 han pasado varios años desde que se produjo un fortuito accidente. Drew Houston, CEO de Dropbox, un día olvidó su memoria USB. 
+Estaba acostumbrado a trabajar con ordenadores de mesa y también con portátiles, por lo que necesitaba siempre tener su pendrive a mano, para pasar los archivos de un PC a otro. 
+Ese día además el disco duro de una de sus computadoras se quemó y Houston no pudo recuperar nada de lo que había dentro, al no tener backups.
+Tras esta experiencia, decidió buscar alternativas para compartir y guardar sus archivos online, pero cuanto más grandes eran los archivos, más problemas daban.
+Eso sin tener en cuenta la colección innumerable de bugs que tenían las diferentes herramientas que entonces existían. Esta claro que aquí había una necesidad:
+Houston no imaginaba a la gente mandando siempre los archivos por email o llevando USB consigo para compartir información. Así es como junto a su grupo de amigos, 
+comenzó a desarrollar Dropbox. La fundaron en 2007 y en 2008 ya la lanzaron al mercado.
+
+Rápido Crecimiento con Grown Hacking(La piratería de crecimiento es un proceso de experimentación rápida en el embudo de marketing,
+el desarrollo de productos, los segmentos de ventas y otras áreas del negocio para identificar las formas más eficientes de hacer crecer un negocio)
+
+Si hay algo que llama mucho la atención de Dropbox, fue su rápido crecimiento. Esto pudo ser posible gracias a lo que hoy en día conocemos como Grown Hacking. 
+Para contextualizar un poco:
+	 Consiguieron 100.000 millones de usuarios 18 meses después de su lanzamiento.
+ 	No gastaron nada en publicidad
+ 	Era un ambiente hostil, ya que había muchísimos competidores.
+ 	Todo el equipo de Houston, eran ingenieros y con cero experiencia en marketing.
+  
+En 2006 había docenas y docenas de empresas que ya se dedicaban al almacenamiento en la nube, pero eso no fue un obstáculo para Drew. 
+El hizo sólo esta reflexión: “Hay miles dedicadas a esto, pero… ¿Usas alguna de ella? NO”. Con el primer reto superado, tocaba otro no menos fácil: 
+construir una arquitectura de almacenaje en la nube, escalable y a prueba de balas y esto, como es de suponer, no iba a ser fácil.
+
+La estrategia que siguió el equipo de Dropbox para conseguir sacar a la venta un producto que la gente comprara, es la de crear un Mínimo Producto Viable (MPV), 
+que contenía 3 sencillos pantallazos de la idea de lo que luego sería la herramienta y lo publicaron en Hackers News, en abril de 2007. 
+Y aquí empezó la magia: consiguieron una reacción inmediata, con mucho feedback y de buena calidad para conseguir desarrollando su producto.
+
+A continuación crearon una landing muy simple, que despertaba el interés y provocaba que la gente se registrara en ella.
+Lanzaron un video beta de demo, que consiguió 12.000 diggs y la lista de espera pasó de 5.000 a 75.000 en un sólo día (Marzo de 2008).
+
+Ya había valiosas lecciones que habían aprendido en los pocos pasos que habían dado:
+
+	Asumir un gran riesgo: esto es fabricar algo que nadie quiere.
+	No lanzar un producto, puede ser doloroso, pero no aprender nada de él, puede ser fatal.
+	Hay que poner tus ideas en manos de los usuarios que son los que antes te darán un buen feedback.
+	Localiza dónde está tu público objetivo y habla con ellos de un modo auténtico.
+
+Pero conseguir todo esto no fue fácil. A veces nos obsesionamos demasiado con las técnicas existentes para lanzar un producto y con las recomendaciones de 
+expertos que no nos llevan a ninguna parte.
+La puesta en marcha de Dropbox se realizó en septiembre de 2008. Para ello, habían desplegado un buen plan de marketing que incluía un gran lanzamiento
+en TenchCrunch 50, comprar Adwords, contratar una firma de PR especialistas en marketing, etc, y realizaron un experimento al que llamaron la Búsqueda Pagada. 
+Consistía en invertir en SEM, marketing de afiliación, escoger palabras clave que redirigieran a diferentes landing y ocultar la opción de crear una cuenta gratuíta 
+para las personas que llegaban a través de la búsqueda pagada y reemplazar el gratis total, por una especie de versión freemium.
+Con estas prácticas, concluyeron que el coste de adquisición de sus clientes era entre $233-$388  y a su vez, por su producto en los incios pagaban $99. 
+Eso no podía ir bien. Había varios problemas.
+
+1.	Las keywords que empleaban para las búsquedas eran demasiado obvias y las usaban demasiadas empresas.
+2.	El modelo Long Tail que se habían planteado, tenía muy poco volumen.
+3.	El ocultamiento de la opción gratis, era muy confusa.
+4.	El marketing de afiliación y la campaña de ads no fue nada efectiva.
+ 
+
+Ni el marketing, ni Adwords eran el problema: Pensemos bien, nadie se despierta por la mañana deseando no llevar su USB o tener todos sus documentos en la nube. 
+Además, ya existía algo igual a lo que ellos habían hecho. A todo esto se le puede sumar que todo lo que invertían en Adwords, conducían a landings ineficaces. 
+La búsqueda es una forma de cosechar demanda, pero no de crearla.
+
+Estaba claro que lo importante era el usuario, por lo tanto, la primera medida que tomaron fue dar a estos mismos usarios, 
+herramientas para que pudieran disfrutar de Dropbox y compartir su afinidad y gusto por ella. Llegaron a esta conclusión estudiando el tipo de usuario.
+Eran personas que llegaban a Dropbox porque lo escuchaban a un amigo y una vez que la conocían, pensaban que la necesitaban y así propagaban el mensaje.
+ 
+También, crearon un programa de incentivos para retener a todos aquellos que se registraban, aumentando así las suscripciones en un 60%.
+Cambiaron la landing haciendo test A/B para estudiar el comportamiento de la gente que entraba en la página. Todo era cuestión de observar. 
+Por último, decidieron invertir en analítica.
+Así, en 30 días los usuarios enviaron 2.8 invitaciones a sus contactos para que se unieran a Dropbox. Los resultados, fueron espectaculares.
+
+ 	100.000 usuarios registrados en Septiembre de 2008.
+ 	Quince meses después, esta cifra ascendía a 4.000.000 usuarios.
+ 	La mayoría procedían del boca a boca y por viralidad: el 35% de registros diarios entraban por el programa de incentivos y el 20% a        través de los archivos que otros compartían.
+	 Tuvieron un crecimiento sustancioso de un 20% más gracias a estas nuevas técnicas.
+
+Las 3 valiosas lecciones de Dropbox
+1.	Aprende pronto y a menudo: los errores no los tomes como fracaso, tomalos como aprendizaje continuo.
+2.	Las Best Practices y las más recomendadas, no son siempre las mejores.
+3.	Conoce bien tu tipo de mercado y cómo tu producto puede entrar en la vida de los usuarios y cambiarla.
+
+Datos curiosos que rodean a Dropbox.
+	Steve Jobs, quiso acabar con ellos. El equipo de Drew Houston recibió una tentativa de compra de Apple en 2011 cuando Jobs estaba a              cargo de la compañía. Según Houston, Jobs aseguró que si no podía adquirir la empresa, iría a por ellos.
+	Hay más archivos en Dropbox, que tuits en Twitter.
+	Uno de los usos más raros que le han dado a esta herramienta, es el de coordinar un par de tractores en una granja.
+	El dominio de dropbox era GetDropbox.com, hasta que en Octubre de 2009, consiguieron el nombre por el que lo conocemos ahora.
+
+Tecnologías detrás de Dropbox
+
+Conocer las tecnologías que grandes empresas utilizan nos ayuda muchísimo a nosotros que estamos aún con una idea en nuestra mente y no estamos muy seguros de lo que deberíamos utilizar para desarrollarla.
+
+El 99.9 % del código está escrito en Python: Se utiliza en el Backend del servidor, en el cliente desktop, en la lógica de los controladores de la web, Backend del API y sus analíticas. 
+
+DropBox corre en Windows, Mac y Linux usando herramientas como PyObjs, WxPython, Types, py2exe, py2app, PyWin32. No importa que tipo de sistema de archivos estes utilizando, o que sistema operativo estás corriendo, El producto siempre funcionará bien.
+ 
+Dropbox ha elegido uno de los mejores servicios de base de datos que existen actualmente, MySQL. Este motor trabaja muy bien con grandes cantidades de datos y una de sus cualidades más grandes es que alcanza velocidades muy sobresalientes en lectura y escritura de datos.
+ 
+La plataforma web de Dropbox se encuentra desarrollada utilizando el framework Pylons y el motor de templates Cheetah, lo cual permiten alcanzar velocidades muy altas en cada una de las peticiones que los usuarios realizan en la web. A comparación del framework web Django, Pylons (Pyramid) es mucho más veloz ya que es un framework minimalista que carga solamente lo indispensable para trabajar con Python en la web, Django por el contrario, es un framework muy completo y con tantas funcionalidades de validaciones en procesadores de contextos, middlewares y demás, que ralentizan los procesamientos y renderizados de los usuarios, aunque claro, esto no significa que Django sea muy mala opción, si no que con un poco de trabajo extra, podemos tener nuestros sitio web con Django muy ligero sin sentir la carga de trabajo en nuestros servidores.
+ 
+Memcached es un almacén KEY - VALUES en memoria que permite persistir pequeños trozos de datos arbitrarios (cadenas , objetos) a partir de resultados de las llamadas de base de datos o renderización de páginas, ofreciendo una buena solución de caché para el sitio web y consultas de datos en DropBox.
+ 
+AMAZON EC2 / S3 Este es un punto que últimamente se le ha estado criticado a Dropbox: no tener infraestructura propia para almacenar los archivos de sus clientes en discos duros propios, y tal vez sea esta la causa del porqué en ocasiones la carga, descarga y lectura de archivos se sienta algo lenta, sin embargo, Dropbox ha sabido utiilzar muy bien estas soluciones de AMAZON para hacer un gran negocio en internet que es respaldado por su gran cartera de clientes (millones) que tiene en todo el mundo. 
+ 
+Durante mucho tiempo Apache se consideró como el mejor servidor web que podría existir para liberar proyectos sin importar el sistema operativo que estemos utilizando ( Linux, Windows, Mac Server).
+ 
+Actualmente, NGINX ha ido abarcando terreno para considerarse un webserver con mucho potencial, permitiendo servir muchas más peticiones por segundo sin consumir tanta memoria, ya que trabaja en un esquema event-based lo cual significa que no requiere abrir nuevos hilos por cada solicitud (web request) recibida.
+ 
+Dropbox, conociendo las ventajas de utilizar NGINX decide adoptarlo para atender a una mayor cantidad de peticiones sin sacrificar performance o requerir de grandes cantidades de memoria RAM en sus servers.
+ 
+ 
