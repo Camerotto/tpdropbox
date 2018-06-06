@@ -1,8 +1,6 @@
 Dropbox
 
 Seguridad
-No solo cifrado tradicional
-Dropbox protege los archivos en almacenamiento y en tránsito entre nuestras aplicaciones y nuestros servidores. Cada archivo se fragmenta en bloques pequeños que se encriptan mediante un potente cifrado. Solamente se sincronizan los bloques que se modificaron.
 
 Recuperación de archivos e historial de versiones
 Dropbox conserva un historial de todos los archivos eliminados y de las versiones anteriores, y te permite restaurarlos durante un máximo de 30 días. El historial de versiones extendido está disponible como complemento de la suscripción a Dropbox Plus. Los usuarios de Dropbox Business tienen hasta 120 días para recuperar archivos eliminados. Más información
@@ -28,6 +26,17 @@ Esta característica de seguridad opcional incorpora un nivel de protección adi
 Supervisa la actividad de la cuenta
 En la página "Seguridad", puedes controlar fácilmente los dispositivos vinculados, las sesiones activas en Internet y las aplicaciones de terceros que tienen acceso a tu cuenta. ¿Te parece que algo no está bien? Puedes denegar el acceso en segundos. En la página "Eventos", puedes controlar los cambios en archivos y carpetas, incluidas las ediciones, las eliminaciones y la membresía de las carpetas compartidas. 
 
-Ten cuidado con la suplantación de identidad y el malware
-Los atacantes, para intentar robarte información confidencial, podrían fingir ser Dropbox u otros servicios de confianza. Ten cuidado con correos electrónicos, sitios web y vínculos desconocidos que intenten engañarte para que ingreses tu contraseña u otra información confidencial. Además, si adviertes que hay archivos sospechosos alojados en Dropbox, comunícate con nosotros
+Centros de datos
+Los sistemas corporativos y de producción de Dropbox están alojados en centros de datos de organizaciones de subservicios de terceros y son administrados por proveedores de servicios que residen en los Estados Unidos. Estos proveedores de servicios de terceros son responsables de los controles de seguridad físicos, ambientales y operativos en los límites de la infraestructura de Dropbox. Dropbox es responsable de la seguridad lógica, de red y de la aplicación de nuestra infraestructura alojada en los centros de datos de terceros.
 
+Fijación de certificados
+Dropbox usa fijación de certificados en nuestros clientes para escritorio y dispositivos móviles. La fijación de certificados es un control adicional para asegurar que el servicio al que te conectas sea realmente quien dice ser y no un impostor. La usamos para protegerte contra otras formas en que los piratas informáticos más experimentados pueden intentar controlar tu actividad.
+
+Cifrado
+Los archivos de Dropbox y los documentos de Dropbox Paper en almacenamiento se encriptan con un cifrado de 256 bits a través del estándar de cifrado avanzado (AES). Para proteger los datos en tránsito entre las aplicaciones de Dropbox (actualmente, para escritorio, dispositivos móviles, API o el sitio web) y nuestros servidores, Dropbox aplica el protocolo de capa de sockets seguros (SSL)/seguridad de la capa de transporte (TLS) para la transferencia de datos, lo que crea un túnel seguro protegido por el estándar de cifrado avanzado (AES) de 128 bits o superior. De forma similar, los datos en transferencia entre un cliente de Paper (dispositivo móvil, API o sitio web) y los servicios alojados se encriptan mediante SSL/TLS.
+
+Confidencialidad directa total
+Para los puntos de extremo que nosotros controlamos (escritorio y dispositivos móviles) y los exploradores modernos, usamos cifrados potentes y admitimos confidencialidad directa total. Implementamos la confidencialidad directa total de modo que nuestra clave privada de SSL no se pueda utilizar para descifrar tráfico de Internet del pasado. Esto agrega una capa de protección a las comunicaciones cifradas con Dropbox, en especial, al desvincular cada sesión de las anteriores. Además, en el sitio web marcamos todas las cookies de autenticación como seguras y habilitamos la seguridad de transporte HTTP estricta (HSTS).
+
+Administración de claves
+La infraestructura de administración de claves de Dropbox está diseñada con controles de seguridad operativa, técnica y de procedimientos, con un acceso directo a las claves muy limitado. La generación, el intercambio y el almacenamiento de las claves de cifrado se distribuyen para permitir el procesamiento descentralizado.
