@@ -40,3 +40,5 @@ Para los puntos de extremo que nosotros controlamos (escritorio y dispositivos m
 
 Administración de claves
 La infraestructura de administración de claves de Dropbox está diseñada con controles de seguridad operativa, técnica y de procedimientos, con un acceso directo a las claves muy limitado. La generación, el intercambio y el almacenamiento de las claves de cifrado se distribuyen para permitir el procesamiento descentralizado.
+
+Dropbox administra el cifrado de archivos en nombre de los usuarios para eliminar la complejidad, admitir características avanzadas del producto y brindar un control criptográfico sólido. El cifrado de archivos está protegido mediante políticas y controles de seguridad de la infraestructura de los sistemas de producción. El acceso a los sistemas de producción está restringido con pares de claves SSH únicas, y los procedimientos y las políticas de seguridad exigen la protección de las claves SSH. Un sistema interno administra el proceso de intercambio seguro de claves públicas, y las claves privadas se almacenan de forma segura.
