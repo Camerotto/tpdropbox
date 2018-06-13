@@ -1,9 +1,24 @@
 Ventajas:
-*Se sincroniza a través de una carpeta fija donde se puede colocar todos los datos 
+*Tiene un disco virtual en el cual se puede trabajar libremente.
+*Se sincroniza a través de una carpeta fija donde se puede colocar todos los datos. 
 *Se puede navegar entro los archivos en una interfaz minimalista. 
-*Se puede almacenar hasta 18 GB 
+*Se puede almacenar hasta 2 GB (Dropbox Basic) , 1TB ( Dropbox plus).
+*Las carpetas compartidas solo las ven las personas que las invites.
 
 Desventajas: 
-* Solo se puede sincronizar lo que se encuentre dentro de la carpeta que se crea de forma automática. Llamada "MY DROPBOX" 
+* Solo se puede sincronizar lo que se encuentre dentro de la carpeta que se crea de forma automática. Llamada "MY DROPBOX". 
 * Cuando se comparten archivos no se debe trabajar en el mismo al mismo tiempo ya que crea conflicto y se duplica el archivo. 
 * No tiene cliente para dispositivos salvo Iphone.
+
+Dropbox vs Box
+Versión gratuita :
+Dropbox ofrece 2 GB de espacio que puede aumentar a 500 megas cada vez que invitas un amigo hasta llegar a 18 GB.
+Box ofrece 10 GB pero a la hora de subir archivos es limitado de 250 megas.
+
+Versión paga:
+Dropbox 9,99 dolares por mes 1 TB de espacio.
+Box 5,80 dolares por mes 100 GB de espacio.
+
+Dropbox vs Google Drive 
+Google Drive se integra con otros servicios de google como google docs o google+
+Ofrece 5 GB gratuito y 25 GB al precio de 2,49 dolares por mes.

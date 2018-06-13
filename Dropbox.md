@@ -1,8 +1,6 @@
 Dropbox
 
 Seguridad
-No solo cifrado tradicional
-Dropbox protege los archivos en almacenamiento y en tránsito entre nuestras aplicaciones y nuestros servidores. Cada archivo se fragmenta en bloques pequeños que se encriptan mediante un potente cifrado. Solamente se sincronizan los bloques que se modificaron.
 
 Recuperación de archivos e historial de versiones
 Dropbox conserva un historial de todos los archivos eliminados y de las versiones anteriores, y te permite restaurarlos durante un máximo de 30 días. El historial de versiones extendido está disponible como complemento de la suscripción a Dropbox Plus. Los usuarios de Dropbox Business tienen hasta 120 días para recuperar archivos eliminados. Más información
@@ -28,6 +26,44 @@ Esta característica de seguridad opcional incorpora un nivel de protección adi
 Supervisa la actividad de la cuenta
 En la página "Seguridad", puedes controlar fácilmente los dispositivos vinculados, las sesiones activas en Internet y las aplicaciones de terceros que tienen acceso a tu cuenta. ¿Te parece que algo no está bien? Puedes denegar el acceso en segundos. En la página "Eventos", puedes controlar los cambios en archivos y carpetas, incluidas las ediciones, las eliminaciones y la membresía de las carpetas compartidas. 
 
-Ten cuidado con la suplantación de identidad y el malware
-Los atacantes, para intentar robarte información confidencial, podrían fingir ser Dropbox u otros servicios de confianza. Ten cuidado con correos electrónicos, sitios web y vínculos desconocidos que intenten engañarte para que ingreses tu contraseña u otra información confidencial. Además, si adviertes que hay archivos sospechosos alojados en Dropbox, comunícate con nosotros
+Centros de datos
+Los sistemas corporativos y de producción de Dropbox están alojados en centros de datos de organizaciones de subservicios de terceros y son administrados por proveedores de servicios que residen en los Estados Unidos. Estos proveedores de servicios de terceros son responsables de los controles de seguridad físicos, ambientales y operativos en los límites de la infraestructura de Dropbox. Dropbox es responsable de la seguridad lógica, de red y de la aplicación de nuestra infraestructura alojada en los centros de datos de terceros.
 
+Fijación de certificados
+Dropbox usa fijación de certificados en nuestros clientes para escritorio y dispositivos móviles. La fijación de certificados es un control adicional para asegurar que el servicio al que te conectas sea realmente quien dice ser y no un impostor. La usamos para protegerte contra otras formas en que los piratas informáticos más experimentados pueden intentar controlar tu actividad.
+
+Cifrado
+Los archivos de Dropbox y los documentos de Dropbox Paper en almacenamiento se encriptan con un cifrado de 256 bits a través del estándar de cifrado avanzado (AES). Para proteger los datos en tránsito entre las aplicaciones de Dropbox (actualmente, para escritorio, dispositivos móviles, API o el sitio web) y nuestros servidores, Dropbox aplica el protocolo de capa de sockets seguros (SSL)/seguridad de la capa de transporte (TLS) para la transferencia de datos, lo que crea un túnel seguro protegido por el estándar de cifrado avanzado (AES) de 128 bits o superior. De forma similar, los datos en transferencia entre un cliente de Paper (dispositivo móvil, API o sitio web) y los servicios alojados se encriptan mediante SSL/TLS.
+
+Confidencialidad directa total
+Para los puntos de extremo que nosotros controlamos (escritorio y dispositivos móviles) y los exploradores modernos, usamos cifrados potentes y admitimos confidencialidad directa total. Implementamos la confidencialidad directa total de modo que nuestra clave privada de SSL no se pueda utilizar para descifrar tráfico de Internet del pasado. Esto agrega una capa de protección a las comunicaciones cifradas con Dropbox, en especial, al desvincular cada sesión de las anteriores. Además, en el sitio web marcamos todas las cookies de autenticación como seguras y habilitamos la seguridad de transporte HTTP estricta (HSTS).
+
+Administración de claves
+La infraestructura de administración de claves de Dropbox está diseñada con controles de seguridad operativa, técnica y de procedimientos, con un acceso directo a las claves muy limitado. La generación, el intercambio y el almacenamiento de las claves de cifrado se distribuyen para permitir el procesamiento descentralizado.
+
+Dropbox administra el cifrado de archivos en nombre de los usuarios para eliminar la complejidad, admitir características avanzadas del producto y brindar un control criptográfico sólido. El cifrado de archivos está protegido mediante políticas y controles de seguridad de la infraestructura de los sistemas de producción. El acceso a los sistemas de producción está restringido con pares de claves SSH únicas, y los procedimientos y las políticas de seguridad exigen la protección de las claves SSH. Un sistema interno administra el proceso de intercambio seguro de claves públicas, y las claves privadas se almacenan de forma segura.
+
+Infraestructura de Dropbox Paper
+Los usuarios de Dropbox pueden acceder a los documentos de Paper en cualquier momento a través del sitio web y de los clientes para escritorio y dispositivos móviles, o bien a través de aplicaciones de terceros vinculadas a la aplicación de Dropbox Paper. Todos estos clientes se conectan a servidores seguros para ofrecer acceso a los documentos de Paper, permitir el uso compartido de documentos y actualizar los dispositivos vinculados cuando se agregan, modifican o eliminan archivos.
+
+La infraestructura de Dropbox Paper consta de los siguientes componentes:
+
+Servidores de aplicaciones de Paper
+Los servidores de aplicaciones de Paper procesan las solicitudes de los usuarios, representan los documentos de Paper editados para que puedan verlos los usuarios y ejecutan los servicios de notificaciones. Estos servidores escriben las modificaciones de los usuarios en las bases de datos de Paper, donde se guardan en almacenamiento persistente. Las sesiones de comunicación entre los servidores de aplicaciones y las bases de datos de Paper se encriptan mediante un potente cifrado.
+
+Bases de datos de Paper
+El contenido de los documentos de Paper de los usuarios, además de algunos metadatos relacionados con estos documentos, se encripta en un almacenamiento persistente en las bases de datos de Paper. Esto incluye información acerca de los documentos de Paper (por ejemplo, el título, los permisos y la membresía compartida, las asociaciones de carpetas y proyectos, y otros datos), además del contenido del documento mismo, incluso los comentarios y las tareas. Las bases de datos de Paper se comparten y se replican según sea necesario para cumplir con los requisitos de rendimiento y de alta disponibilidad.
+
+Servidores de imágenes de Paper
+Las imágenes cargadas a documentos de Paper se almacenan y se encriptan en los servidores de imágenes de Paper. La transmisión de datos de imágenes entre los servidores de imágenes y de aplicaciones de Paper se realiza mediante una sesión encriptada.
+
+Servicio de proxy de imágenes de Paper
+El servicio de proxy de imágenes de Paper ofrece vistas previas de imágenes cargadas y de hipervínculos incorporados en documentos de Paper. En el caso de las imágenes cargadas, el servicio utiliza datos almacenados en los servidores de imágenes de Paper mediante un canal encriptado. Con respecto a los hipervínculos incorporados, el servicio usa los datos y representa una vista previa a través de HTTP o HTTPS según se especificado en el vínculo de origen.
+
+Desventajas de Dropbox
+
+No hay manera de elegir cuando realizar una sincronizacion. En la pc se realiza automaticamente pero es posible pausarla. Mas alla de eso no se tiene mucha alternativa, ya que Dropbox favorece tener un entorno facil de usar. 
+Otra desventaja es que Dropbox esta registrado y localizado en Estados unidos, por lo tanto tiene las puertas abiertas a la NSA (Agencia de Seguridad Nacional, o National Security Agency). Tambien falta un paso de encriptado privado del lado del usuario, lo que significa que Dropbox posee la clave ara cada encriptado.
+En la version gratuita, no hay forma de colaborar en tiempo real cuando se trabaja sobre documentos.
+No hay una forma directa de subir carpetas a traves de la web, la unica forma de hacerlo por ahora es copiar la carpeta en la carpeta
+de sincronizacion del disco rigido.
