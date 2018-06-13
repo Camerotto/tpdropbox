@@ -64,3 +64,6 @@ Desventajas de Dropbox
 
 No hay manera de elegir cuando realizar una sincronizacion. En la pc se realiza automaticamente pero es posible pausarla. Mas alla de eso no se tiene mucha alternativa, ya que Dropbox favorece tener un entorno facil de usar. 
 Otra desventaja es que Dropbox esta registrado y localizado en Estados unidos, por lo tanto tiene las puertas abiertas a la NSA (Agencia de Seguridad Nacional, o National Security Agency). Tambien falta un paso de encriptado privado del lado del usuario, lo que significa que Dropbox posee la clave ara cada encriptado.
+En la version gratuita, no hay forma de colaborar en tiempo real cuando se trabaja sobre documentos.
+No hay una forma directa de subir carpetas a traves de la web, la unica forma de hacerlo por ahora es copiar la carpeta en la carpeta
+de sincronizacion del disco rigido.
