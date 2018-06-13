@@ -59,3 +59,8 @@ Las imágenes cargadas a documentos de Paper se almacenan y se encriptan en los 
 
 Servicio de proxy de imágenes de Paper
 El servicio de proxy de imágenes de Paper ofrece vistas previas de imágenes cargadas y de hipervínculos incorporados en documentos de Paper. En el caso de las imágenes cargadas, el servicio utiliza datos almacenados en los servidores de imágenes de Paper mediante un canal encriptado. Con respecto a los hipervínculos incorporados, el servicio usa los datos y representa una vista previa a través de HTTP o HTTPS según se especificado en el vínculo de origen.
+
+Desventajas de Dropbox
+
+No hay manera de elegir cuando realizar una sincronizacion. En la pc se realiza automaticamente pero es posible pausarla. Mas alla de eso no se tiene mucha alternativa, ya que Dropbox favorece tener un entorno facil de usar. 
+Otra desventaja es que Dropbox esta registrado y localizado en Estados unidos, por lo tanto tiene las puertas abiertas a la NSA (Agencia de Seguridad Nacional, o National Security Agency). Tambien falta un paso de encriptado privado del lado del usuario, lo que significa que Dropbox posee la clave ara cada encriptado.
