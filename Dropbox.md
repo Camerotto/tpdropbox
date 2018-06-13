@@ -42,3 +42,20 @@ Administración de claves
 La infraestructura de administración de claves de Dropbox está diseñada con controles de seguridad operativa, técnica y de procedimientos, con un acceso directo a las claves muy limitado. La generación, el intercambio y el almacenamiento de las claves de cifrado se distribuyen para permitir el procesamiento descentralizado.
 
 Dropbox administra el cifrado de archivos en nombre de los usuarios para eliminar la complejidad, admitir características avanzadas del producto y brindar un control criptográfico sólido. El cifrado de archivos está protegido mediante políticas y controles de seguridad de la infraestructura de los sistemas de producción. El acceso a los sistemas de producción está restringido con pares de claves SSH únicas, y los procedimientos y las políticas de seguridad exigen la protección de las claves SSH. Un sistema interno administra el proceso de intercambio seguro de claves públicas, y las claves privadas se almacenan de forma segura.
+
+Infraestructura de Dropbox Paper
+Los usuarios de Dropbox pueden acceder a los documentos de Paper en cualquier momento a través del sitio web y de los clientes para escritorio y dispositivos móviles, o bien a través de aplicaciones de terceros vinculadas a la aplicación de Dropbox Paper. Todos estos clientes se conectan a servidores seguros para ofrecer acceso a los documentos de Paper, permitir el uso compartido de documentos y actualizar los dispositivos vinculados cuando se agregan, modifican o eliminan archivos.
+
+La infraestructura de Dropbox Paper consta de los siguientes componentes:
+
+Servidores de aplicaciones de Paper
+Los servidores de aplicaciones de Paper procesan las solicitudes de los usuarios, representan los documentos de Paper editados para que puedan verlos los usuarios y ejecutan los servicios de notificaciones. Estos servidores escriben las modificaciones de los usuarios en las bases de datos de Paper, donde se guardan en almacenamiento persistente. Las sesiones de comunicación entre los servidores de aplicaciones y las bases de datos de Paper se encriptan mediante un potente cifrado.
+
+Bases de datos de Paper
+El contenido de los documentos de Paper de los usuarios, además de algunos metadatos relacionados con estos documentos, se encripta en un almacenamiento persistente en las bases de datos de Paper. Esto incluye información acerca de los documentos de Paper (por ejemplo, el título, los permisos y la membresía compartida, las asociaciones de carpetas y proyectos, y otros datos), además del contenido del documento mismo, incluso los comentarios y las tareas. Las bases de datos de Paper se comparten y se replican según sea necesario para cumplir con los requisitos de rendimiento y de alta disponibilidad.
+
+Servidores de imágenes de Paper
+Las imágenes cargadas a documentos de Paper se almacenan y se encriptan en los servidores de imágenes de Paper. La transmisión de datos de imágenes entre los servidores de imágenes y de aplicaciones de Paper se realiza mediante una sesión encriptada.
+
+Servicio de proxy de imágenes de Paper
+El servicio de proxy de imágenes de Paper ofrece vistas previas de imágenes cargadas y de hipervínculos incorporados en documentos de Paper. En el caso de las imágenes cargadas, el servicio utiliza datos almacenados en los servidores de imágenes de Paper mediante un canal encriptado. Con respecto a los hipervínculos incorporados, el servicio usa los datos y representa una vista previa a través de HTTP o HTTPS según se especificado en el vínculo de origen.
