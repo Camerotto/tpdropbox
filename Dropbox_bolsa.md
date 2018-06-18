@@ -1,4 +1,5 @@
 23 marzo de 2018
+
 Acciones de Dropbox suben rápidamente durante su primer día en la bolsa
 
 Algunos expertos señalan que la entrada a la bolsa de esta compañía es una de las más importantes desde el ingreso de Snapchat.
