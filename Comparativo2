@@ -1,1 +1,40 @@
+Plan que ofrece Drive, existe la opción gratuita con un límite de 15 GB, 
+que son más que suficiente para los usuarios tradicionales que solo desean respaldar fotos de importancia y 
+otros archivos de poco tamaño. En caso de querer algo más de espacio, 
+Google ofrece variantes de 100 GB por US$ 1,99 mensuales, 1 TB (algo más de 1000 GB) por US$ 9,99 mensuales 
+(según la compañía, el plan de pago más popular) y 10 TB por US$ 99,99 mensuales. 
+Para usuarios que utilicen la Nube de forma intensiva existen otras dos opciones: 20 TB por US$ 199,99 mensuales
+y 30 TB por US$ 299,99 mensuales.
+Algunos detalles para tener en cuenta: Drive acepta todo tipo de archivos (música, documentos, películas, etc.),
+almacena documentos escaneados con la cámara de fotos del celular en formato .PDF y se pueden buscar palabras 
+clave directamente desde la herramienta de búsqueda avanzada (por ejemplo, al ingresar "obelisco", 
+puede mostrar archivos de texto con esta palabra o fotografías del Obelisco). Además, 
+los archivos pueden ser compartidos con otros usuarios (vía link) y en materia de seguridad están protegidos 
+con la tecnología SSL, la misma que se utiliza en Gmail y otros servicios de la compañía.
 
+Dropbox actualmente sigue siendo una de las opciones más elegidas por los usuarios que desean resguardar sus archivos
+en línea (ostenta más de 500 millones de usuarios en todo el mundo), y para ello cuenta con distintos planes
+diseñados para todo tipo de usos. La opción básica, que es ofrecida de manera gratuita, ofrece 2 GB de almacenamiento, 
+sincronización en distintos dispositivos, carpetas y vínculos compartidos y Dropbox Paper, 
+su servicio de documentos colaborativos. Las opciones pagas comienzan con la versión Plus, de U$S 9,99 mensuales,
+que ofrece un terabyte de almacenamiento, acceso sin conexión, borrado remoto y soporte prioritario por correo 
+electrónico.
+Pasando al mercado corporativo, existe Dropbox Business, con soluciones diseñadas específicamente para empresas. 
+La opción Standard ofrece 2 TB de almacenamiento por usuario a US$ 12,50 mensuales y se debe contratar para un mínimo
+de 3 usuarios. Además, incorpora 120 días de recuperación de archivos, cifrado AES de 256 bits y SSL/TLS, integración
+con Office 365, Dropbox Paper, Sincronización inteligente, consola de administración, acceso ilimitado a la API para 
+socios de la plataforma de seguridad y productividad, y 25.000 llamadas mensuales a la API para socios de transferencia de datos.
+OneDrive ofrece 5 GB de forma gratuita y permite almacenar todo tipo de archivos. Las opciones pagas comienzan en 39.99 pesos por mes
+y 50 GB de almacenamiento. Los planes superiores son ofrecidos en conjunto con Office 365 y, dependiendo de las necesidades del usuario,
+pueden llegar a representar una opción mucho más completa que las de Drive y Dropbox. Por 1199 pesos anuales o 119,99 pesos al mes, 
+la firma de Redmond ofrece 1 TB de almacenamiento, Office 365 para una PC/Mac y un dispositivo móvil, acceso a archivos sin conexión y digitalización de documento; por 1599 pesos anuales o 159,99 pesos al mes, se accede a 5 TB de almacenamiento, Office 365 para 5 PC/Mac y 5 dispositivos móviles y todas las opciones antes citadas.
+En cuanto a la oferta para usuarios corporativos, la opción más contratada es la de $ 2100 anuales o $ 210 pesos mensuales por usuario. Este plan incluye 1 TB de almacenamiento, 15 GB para límite de carga de archivos, Office 365, Microsoft Teams (el competidor de Slack de la compañía), Bookings, todas las opciones de las versiones hogareñas y herramientas diseñadas para el ámbito empresarial, como mayores niveles de seguridad, uso compartido seguro (permite gestionar quienes pueden manipular ciertos archivos), acceso a la API, y soporte telefónico y vía correo electrónico.
+Microsoft también ofrece una variante de 1600 pesos anuales por usuario con almacenamiento ilimitado, 15GB de límite de carga de archivos, gestión centralizada (supervisa quienes acceden a los contenidos), prevención de pérdida de datos, conservación de datos editados o eliminados y acceso a la API. Por último, también se puede contratar un plan de 840 pesos anuales por usuario con las mismas características que el plan anterior, pero con almacenamiento 
+El plan Advanced posee todas las características del Standard, pero por US$ 20 mensuales agrega todo el espacio que necesite el usuario, controles de administración avanzados, roles con niveles de administrador, herramientas más avanzadas de administración de usuarios, verificación de dominios, integración con inicios de sesión únicos, aprobaciones de dispositivos, y soporte telefónico.
+Por último, está la variante Enterprise, personalizada según los requerimientos de la empresa, que es presupuestada de acuerdo a las características que se necesiten. Esta opción suma todas las características de la versión Advanced, 
+pero incorpora un gerente de cuentas asignado, capacitación para usuarios y administradores, y soporte para la administración de movilidad empresarial 
+(EMM), entre otras características.
+Amazon Drive: El servicio de la firma de Jeff Bezos arranca con una opción gratis de 5 GB para todo tipo de archivos (los usuarios Prime obtienen además 5 GB extra para videos y capacidad ilimitada para fotos). Las opciones pagas son a partir de 100 GB (US$ 11,99 mensual) y pueden superar el TB (cuyo valor mensual es de 59,99 dólares).
+Box: Otra opción popular es Box, que ofrece 10 GB de almacenamiento gratis para sus usuarios y límites de 250 MB por archivo. La opción paga cuesta US$ 11,50 mensuales y permite acceder a 100 GB de capacidad. Para empresas, los planes comienzan en US$ 6 mensuales por usuario (100 GB y un mínimo de 3 usuarios), y se puede acceder a planes personalizados, ajustados a las necesidades de cada firma.
+Mega: La firma de Kim Dotcom (ex Megaupload) sigue en el ruedo, ofreciendo almacenamiento en la Nube a precios sumamente competitivos. Además de un espacio gratis de 50 GB, el servicio ofrece planes de 200 GB por mes a 4,99 euros por mes, 1 TB a 9,99 euros por mes, 4 TB a 19,99 euros por mes y 8 TB a 29,99 euros por mes.
+iCloud: El servicio de Apple, utilizado por la mayoría de los usuarios de la compañía, ofrece varias opciones de almacenamiento. La variante gratuita tiene un límite de 5 GB, mientras que por US$ 0,99 al mes se puede expandir hasta los 50 GB. Aquellos que necesiten más espacio pueden pagar 2,99 dólares al mes por 200 GB o US$ 19,99 por 2 TB. Un detalle a tener en cuenta: iCloud solo funciona en iOS, Mac y Windows.
