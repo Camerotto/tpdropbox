@@ -2,17 +2,14 @@ Dropbox
 
 Seguridad
 
-Recuperación de archivos e historial de versiones
-Dropbox conserva un historial de todos los archivos eliminados y de las versiones anteriores, y te permite restaurarlos durante un máximo de 30 días. El historial de versiones extendido está disponible como complemento de la suscripción a Dropbox Plus. Los usuarios de Dropbox Business tienen hasta 120 días para recuperar archivos eliminados. Más información
-Estrictas pruebas de seguridad
-Llevamos a cabo pruebas habituales de nuestras aplicaciones y nuestra infraestructura para identificar y corregir vulnerabilidades. También trabajamos con especialistas externos, equipos de seguridad del sector y la comunidad de investigación en seguridad para proteger a nuestros usuarios y sus archivos. Es posible informar posibles errores de seguridad y vulnerabilidades a través del servicio externo HackerOne.
+Recuperación de archivos e historial de versiones: Dropbox conserva un historial de todos los archivos eliminados y de las versiones anteriores, y te permite restaurarlos durante un máximo de 30 días. Ese tiempo puede extenderse en las versiones pagas de Dropbox.
 
-Acceso de terceros
-Dropbox definió una serie de condiciones y pautas para ayudar a los programadores externos a crear aplicaciones que puedan vincularse a Dropbox respetando y protegiendo la privacidad de los usuarios y la seguridad de las cuentas. Además, usamos OAuth, un protocolo de autorización estándar en la industria, para que los usuarios puedan conceder a las aplicaciones diferentes niveles de acceso a sus cuentas sin tener que divulgar las credenciales. 
+Estrictas pruebas de seguridad: Se llevan a cabo pruebas habituales de las aplicaciones e infraestructura para identificar y corregir vulnerabilidades. También se trabaja con especialistas externos, equipos de seguridad del sector y la comunidad de investigación en seguridad para proteger a los usuarios y sus archivos. Es posible informar posibles errores de seguridad y vulnerabilidades a través del servicio externo HackerOne.
+
+Acceso de terceros: Dropbox definió una serie de condiciones y pautas para ayudar a los programadores externos a crear aplicaciones que puedan vincularse a Dropbox respetando y protegiendo la privacidad de los usuarios y la seguridad de las cuentas. Además, usan OAuth, un protocolo de autorización estándar en la industria, para que los usuarios puedan conceder a las aplicaciones diferentes niveles de acceso a sus cuentas sin tener que divulgar las credenciales. 
 
 Protección de la privacidad de Dropbox
-Política de privacidad
-Nos comprometemos a preservar la privacidad de tus datos, ya sea información personal o del trabajo. Nuestra política de privacidad describe claramente cuándo recopilamos tu información y las medidas que adoptamos para protegerla.
+Política de privacidad: Dropbox se compromete a preservar la privacidad de los datos de los usuarios, ya sea información personal o del trabajo. La política de privacidad describe claramente cuándo se recopila tu información y las medidas que se adoptan para protegerla.
 
 Principios sobre solicitudes de datos del gobierno
 Publicamos un informe de transparencia para comunicar la frecuencia con que recibimos solicitudes de datos del gobierno y los principios sobre solicitudes de datos del gobierno que rigen nuestras respuestas a esas solicitudes. Conforme a estos principios, nos comprometemos a ser transparentes, a rechazar solicitudes demasiado generales, a prestar servicios de confianza y a proteger a todos nuestros usuarios, independientemente de la ubicación.
